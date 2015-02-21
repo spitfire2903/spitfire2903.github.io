@@ -79,6 +79,15 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-rounded {
+    border-radius: 50%;
+}
+
+.img-profile {
+    width: 50%;
+    max-width: 256px;
+}
+
 header {
     text-align: center;
     color: #fff;

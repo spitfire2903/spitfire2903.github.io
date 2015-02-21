@@ -1,7 +1,7 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
+title: Ricardo N. M.
+email: contato@ricardonm.com.br
+url: https://ricardonm.com.br
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
@@ -23,15 +23,15 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/ricardonmiranda
   - title: facebook
-    url:
+    url: http://www.facebook.com/nm.ricardo
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: http://stackoverflow.com/users/4471536/ricardo-nunes-de-miranda# http://stackoverflow.com/questions/tagged/spitfire2903
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://bitbucket.org/spitfire2903
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/spitfire2903
 
 # Postal address (add as many lines as necessary)
 address:
