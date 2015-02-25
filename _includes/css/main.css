@@ -79,14 +79,18 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-.img-rounded {
+/*.img-rounded-circle {
     border-radius: 50%;
-}
+}*/
 
 .img-profile {
     width: 50%;
     max-width: 256px;
 }
+
+/*.img-portfolio {
+    max-height: 260px;
+}*/
 
 header {
     text-align: center;
@@ -206,13 +210,19 @@ section.success {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    max-height: 260px;
+    overflow: hidden;
+    padding-top: 17%;
+    height: 0;
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    position: absolute;
+    top: 0;
+    height: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -395,8 +405,16 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
     min-height: 100%;
+}
+
+.contact-modal .modal-content {
+    min-height: 100%;
+    /* max-width: 70%; */
+}
+
+.portfolio-modal .modal-content, .contact-modal .modal-content {
+    padding: 100px 0;    
     border: 0;
     border-radius: 0;
     text-align: center;
@@ -405,20 +423,25 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h2, .contact-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
+.contact-modal .modal-content p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.portfolio-modal .modal-content img, .contact-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content .item-details {
+.portfolio-modal .modal-content .item-details, .contact-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.portfolio-modal .close-modal, .contact-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -428,11 +451,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.portfolio-modal .close-modal:hover, .contact-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.portfolio-modal .close-modal .lr, .contact-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -443,7 +466,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.portfolio-modal .close-modal .lr .rl, .contact-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
