@@ -3,7 +3,7 @@ $(function() {
     function openThanks(){
         $('#contactModal').modal('show');
     }
-    
+    /*
     function reposition() {
         var modal = $(this),
             dialog = modal.find('.modal-dialog');
@@ -18,7 +18,7 @@ $(function() {
     // Reposition when the window is resized
     $(window).on('resize', function() {
         $('.modal:visible').each(reposition);
-    });
+    });*/
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
