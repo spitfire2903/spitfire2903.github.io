@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+title: Feverestival 2015
+img: feverestival2015.png
+alt: Feverestivel 2015
+project-date: April 2014
+client: Feverestival
+client-url: http://feverestival.com.br/
+category: Mobile Development
+description: Desenvolvimento de aplicativos para as plataformas Android e iOS
+
+---

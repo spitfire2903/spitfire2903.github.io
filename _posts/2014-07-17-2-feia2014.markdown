@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+title: FEIA 2014
+img: feia2014.png
+alt: FEIA 2014
+project-date: April 2014
+client: FEIA
+client-url: http://feia.art.br
+category: Mobile Development
+description: Desenvolvimento de aplicativos para as plataformas Android e iOS
+
+---
