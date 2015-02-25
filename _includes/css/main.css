@@ -408,9 +408,16 @@ footer .footer-below {
     min-height: 100%;
 }
 
-.contact-modal .modal-content {
-    min-height: 100%;
-    /* max-width: 70%; */
+.contact-modal {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+}
+
+.contact-modal .container {
+    width: auto;
+    /*min-height: 100%;
+     max-width: 70%; */
 }
 
 .portfolio-modal .modal-content, .contact-modal .modal-content {
